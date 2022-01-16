@@ -1,0 +1,161 @@
+/*
+Theme Name: WP Bootstrap 4
+Classes helpers: Nelson Rodrigues - 09/05/2019
+*/
+
+.row-full {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  clear: both;
+}
+
+.nao-mostrar { display: none; }
+
+/* .absolute-center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+} */
+
+a { 
+  color: inherit !important;
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+.overflow-visible { overflow: visible !important; }
+
+.overflow-hidden { overflow: hidden !important; }
+
+.z-index-1 { z-index: -1;}
+
+.z-index0 { z-index: 0;}
+
+.z-index1 { z-index: 1;}
+
+/* FONT-WEIGHT */
+
+.regular { font-weight: 400; }
+
+.semi-bold { font-weight: 600; }
+
+.extra-bold { font-weight: 800; }
+
+.black { font-weight: 900; }
+
+
+/* MARGIN */
+
+.no-margin { margin: 0 !important; }
+
+.m-b-5 { margin-bottom: 5px !important; }
+.m-b-10 { margin-bottom: 10px !important; }
+.m-b-15 { margin-bottom: 15px !important; }
+.m-b-20 { margin-bottom: 20px; }
+.m-b-30 { margin-bottom: 30px !important; }
+.m-b-35 { margin-bottom: 35px; }
+
+.m-b-40 { margin-bottom: 40px !important; }
+.m-b-50 { margin-bottom: 50px !important; }
+.m-b-60 { margin-bottom: 60px !important; }
+.m-b-70 { margin-bottom: 70px !important; }
+.m-b-100 { margin-bottom: 100px !important; }
+
+.m-t-10 { margin-top: 10px !important; }
+.m-t-15 { margin-top: 15px; }
+.m-t-20 { margin-top: 20px; }
+.m-t-30 { margin-top: 30px !important; }
+.m-t-35 { margin-top: 35px; }
+.m-t-40 { margin-top: 40px; }
+.m-t-50 { margin-top: 50px !important; }
+.m-t-70 { margin-top: 70px; }
+.m-t-100 { margin-top: 100px !important; }
+
+/* PADDING */
+
+.no-padding { padding: 0 !important; }
+
+.no-padding-right { padding-right: 0 !important; }
+
+.p-t-10 { padding-top: 10px; }
+.p-t-20 { padding-top: 20px; }
+.p-t-30 { padding-top: 30px; }
+.p-t-35 { padding-top: 35px; }
+.p-t-40 { padding-top: 40px; }
+.p-t-50 { padding-top: 50px; }
+.p-t-70 { padding-top: 70px; }
+
+.p-b-10 { padding-bottom: 10px; }
+.p-b-15 { padding-bottom: 15px; }
+.p-b-20 { padding-bottom: 20px; }
+.p-b-25 { padding-bottom: 25px; }
+.p-b-30 { padding-bottom: 30px; }
+.p-b-35 { padding-bottom: 35px; }
+.p-b-50 { padding-bottom: 50px; }
+.p-b-70 { padding-bottom: 70px; }
+
+/* LINE HEIGHT */
+
+.l-h-18 { line-height: 18px; }
+.l-h-20 { line-height: 20px; }
+.l-h-25 { line-height: 25px; }
+.l-h-30 { line-height: 30px; }
+.l-h-38 { line-height: 38px; }
+.l-h-40 { line-height: 40px; }
+.l-h-45 { line-height: 45px; }
+.l-h-55 { line-height: 55px; }
+
+/* FONT-SIZE */
+
+.text12 { font-size: 12px; }
+.text14 { font-size: 14px; }
+.text15 { font-size: 15px; }
+.text18 { font-size: 18px; }
+.text19 { font-size: 19px; }
+.text23 { font-size: 23px; }
+.text24 { font-size: 24px; }
+.text28 { font-size: 28px; }
+.text26 { font-size: 26px; }
+.text30 { font-size: 30px; }
+.text65 { font-size: 65px; }
+.text85 { font-size: 85px; }
+
+/* LETTER-SPACING */
+
+.l-s-2 { letter-spacing: 2px; }
+.l-s-3 { letter-spacing: 3px; }
+.l-s-4 { letter-spacing: 4px; }
+.l-s-5 { letter-spacing: 5px; }
+.l-s-6 { letter-spacing: 6px; }
+.l-s-7 { letter-spacing: 7px; }
+
+/* BACKGROUND-COLOR */
+
+.dark-mask { background-image: linear-gradient(#707070, #707070); }
+.white-90 { background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); }
+
+.bg-gray { background: #EDEDED; }
+.bg-dark-blue { background: #042D40; }
+.bg-black { background: #181D1E; }
+
+.text-underline { text-decoration: underline; }
+
+.text-no-decoration { text-decoration: none; }
+
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+/* MOBILE */
+@media (max-width: 992px) {
+  .pmx-15 { padding: 0 15px !important; }
+
+  #colophon * {display: block; text-align: center; }
+  #colophon img { display: inline-flex !important; }
+  
+}
