@@ -894,3 +894,10 @@ input[type="email"], input[type="submit"], input[type="text"], textarea { font-w
 
 /* DEBUG NÃO USAR EM PRODUÇÃO */
 /* #wpadminbar { display: none; } */
+
+/* NEW HOME */
+
+.home-banner .home-banner_logo {
+  border-bottom: 12px solid #E13511;
+  padding: 20px 0 10px;
+}
