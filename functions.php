@@ -215,6 +215,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+// Load ACF configs file.
+require get_template_directory() . '/inc/acf.php';
+
 
 add_image_size('related_post_image', 209, 236, true);
 add_image_size('project_image', 380, 352, true);

@@ -901,3 +901,104 @@ input[type="email"], input[type="submit"], input[type="text"], textarea { font-w
   border-bottom: 12px solid #E13511;
   padding: 20px 0 10px;
 }
+
+.home-banner .home-banner_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 88vh;
+  justify-content: space-between;
+  padding: 0 0 160px;
+}
+
+.home-banner .home-banner_logotipo {
+  align-self: center;
+  padding: 80px 0 60px;
+  width: 45px;
+}
+
+.home-banner .home-banner_title {
+  color: #ffffff;
+  display: flex;
+  font-size: 32px;
+  flex-direction: column;
+  line-height: 44px;
+  margin: 0;
+  padding: 0 10px 100px;
+  text-transform: uppercase;
+}
+
+.home-banner .home-banner_title .home-banner_first,
+.home-banner .home-banner_title .home-banner_last {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.home-banner .home-banner_button {
+  border: 1px solid #E0381F;
+  border-radius: 9px;
+  color: #ffffff !important;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  margin: 0 auto;
+  max-width: 225px;
+  padding: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: all 0.3s;
+  width: 100%;
+}
+
+.home-banner .home-banner_button:hover {
+  background-color: #E0381F;
+}
+
+.home-banner .home-banner_background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.home-banner .home-banner_background img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.home-banner .home-banner_background::before {
+  content: '';
+  background: #000;
+  opacity: 0.35;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .home-banner .home-banner_logotipo {
+    padding: 15px 0 20px;
+  }
+  .home-banner .home-banner_title {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0 10px 36px;
+  }
+
+  .home-banner .home-banner_title .home-banner_first,
+  .home-banner .home-banner_title .home-banner_last {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .home-banner .home-banner_content {
+    padding: 0 0 40px;
+    min-height: auto;
+  }
+}
