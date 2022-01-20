@@ -42,6 +42,21 @@
 		gtag('config', 'UA-144496028-1');
 	</script>
 
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri() ?>/assets/js/jquery.flexslider.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(window).ready(function() {
+			$('.flexslider').flexslider({
+				controlNav: false,
+				directionNav: true,
+				prevText: "",
+				nextText: ""
+			});
+		});
+	</script>
+
 	<?php wp_head(); ?>
 </head>
 
