@@ -1017,6 +1017,28 @@ input[type="email"], input[type="submit"], input[type="text"], textarea { font-w
   line-height: 24px;
 }
 
+.btn-outros-projetos {
+  border: 2px solid #E0381F;
+  border-radius: 9px;
+  color: #161615 !important;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin: 65px auto 40px;
+  max-width: 400px;
+  padding: 12px 28px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.btn-outros-projetos:hover {
+  background-color: #E0381F;
+  color: #ffffff !important;
+}
+
 @media screen and (max-width: 767px) {
   .home-banner .home-banner_logotipo {
     padding: 15px 0 20px;

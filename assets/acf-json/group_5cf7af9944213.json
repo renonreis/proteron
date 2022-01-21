@@ -57,6 +57,24 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_61e9f8497ba0f",
+            "label": "Google Maps",
+            "name": "google_maps",
+            "type": "google_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": 18,
+            "height": ""
         }
     ],
     "location": [
@@ -87,5 +105,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1642637289
+    "modified": 1642727811
 }

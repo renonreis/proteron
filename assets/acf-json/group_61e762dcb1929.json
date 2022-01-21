@@ -193,7 +193,7 @@
                     "key": "field_61e7662044b89",
                     "label": "URL do Botão",
                     "name": "url_botao",
-                    "type": "page_link",
+                    "type": "text",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -202,13 +202,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "post_type": [
-                        "page"
-                    ],
-                    "taxonomy": "",
-                    "allow_null": 0,
-                    "allow_archives": 1,
-                    "multiple": 0
+                    "default_value": "#",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 }
             ]
         },
@@ -355,7 +353,7 @@
                     "key": "field_61e76692ddb61",
                     "label": "URL do Botão",
                     "name": "url_botao",
-                    "type": "page_link",
+                    "type": "text",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -364,13 +362,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "post_type": [
-                        "page"
-                    ],
-                    "taxonomy": "",
-                    "allow_null": 0,
-                    "allow_archives": 1,
-                    "multiple": 0
+                    "default_value": "#",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 }
             ]
         },
@@ -517,7 +513,7 @@
                     "key": "field_61e766a3ddb69",
                     "label": "URL do Botão",
                     "name": "url_botao",
-                    "type": "page_link",
+                    "type": "text",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -526,13 +522,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "post_type": [
-                        "page"
-                    ],
-                    "taxonomy": "",
-                    "allow_null": 0,
-                    "allow_archives": 1,
-                    "multiple": 0
+                    "default_value": "#",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 }
             ]
         }
@@ -557,5 +551,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1642555763
+    "modified": 1642721650
 }
